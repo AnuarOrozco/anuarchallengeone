@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafbfd;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Establece un contenedor flexible */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    height: 100vh; /* Establece la altura del contenedor principal */
+  }
+  h1 {
+    text-align: center;
+  }
+  form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #999;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px #ddd;
+    margin-bottom: 20px;
+    font-size: 14px; 
+  }
+  button {
+    background-color: #e06460;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #e06460c4;
+  }
+  #texto-encriptado {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.container{
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.autor{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #868686;
+}
